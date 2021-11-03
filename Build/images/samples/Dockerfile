@@ -2,7 +2,7 @@
 # https://github.com/microsoft/iqsharp/blob/main/images/iqsharp-base/Dockerfile.
 # As per Binder documentation, we choose to use an SHA sum here instead of a
 # tag.
-FROM mcr.microsoft.com/quantum/iqsharp-base:0.18.2109162713
+FROM mcr.microsoft.com/quantum/iqsharp-base:0.20.2110171573
 
 # Mark that this Dockerfile is used with the samples repository.
 ENV IQSHARP_HOSTING_ENV=SAMPLES_DOCKERFILE
@@ -34,7 +34,7 @@ RUN apt-get -y update && \
     cp /etc/apt/sources.list /etc/apt/sources.list.backup && \
     echo "deb https://deb.debian.org/debian unstable main" >> /etc/apt/sources.list && \
     apt-get -y update && \
-    apt-get -y install ca-certificates=20210119 && \
+    apt-get -y install ca-certificates=20211016 && \
     mv /etc/apt/sources.list.backup /etc/apt/sources.list && \
     apt-get clean && rm -rf /var/lib/apt/lists/
 
