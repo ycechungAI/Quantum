@@ -15,7 +15,6 @@ jupyter:
 
 <!-- markdownlint-disable-file no-inline-html -->
 <!-- cspell:words qrng chsh qpic qaoa -->
-
 # Quantum Development Kit Samples
 
 These samples demonstrate the use of Q# and the Quantum Development Kit for a variety of different quantum computing tasks.
@@ -133,6 +132,14 @@ These are noted in the README.md files for each sample, along with complete inst
     </tr>
     <tr>
       <td></td>
+      <td><a href="./samples/algorithms/noisy-amp-est/README.md"><strong>Noisy amplitude estimation</strong></a></td>
+      <td><a href="./samples/algorithms/noisy-amp-est/NoisyAmpEst.ipynb">Q# + Python</a></td>
+      <td></td>
+      <td></td>
+      <td>Q# + .NET</td>
+    </tr>
+    <tr>
+      <td></td>
       <td><a href="./samples/algorithms/integer-factorization/README.md"><strong>Integer factorization</strong></a></td>
       <td></td>
       <td><a href="./samples/algorithms/integer-factorization/host.py">Q# + Python</a></td>
@@ -243,6 +250,22 @@ These are noted in the README.md files for each sample, along with complete inst
     </tr>
     <tr>
       <td></td>
+      <td><strong><a href="./samples/azure-quantum/shorter-quantum-circuits/README.md">Shorter Quantum Circuits dataset</a></strong></td>
+      <td></td>
+      <td>Python</td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td><strong><a href="./samples/azure-quantum/resource-estimation/README.md">Resource Estimation</a></strong></td>
+      <td></td>
+      <td>Q# + Python, Qiskit + Python</td>
+      <td>Q# standalone</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td></td>
       <td><strong><a href="./samples/azure-quantum/variational-quantum-eigensolver/README.md">Variational quantum eigensolvers</a></strong></td>
       <td></td>
       <td><a href="./samples/azure-quantum/variational-quantum-eigensolver/VQE-qiskit-hydrogen-ionq-sim.ipynb">Qiskit + Python</a></td>
@@ -287,6 +310,43 @@ These are noted in the README.md files for each sample, along with complete inst
       <td></td>
       <td></td>
       <td>Q# standalone</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td><strong><a href="./samples/azure-quantum/check-ghz/README.md">Getting started with Integrated Hybrid Computing</a></strong></td>
+      <td><a href="./samples/azure-quantum/check-ghz/CheckGHZ.ipynb">Q# notebook</a></td>
+      <td>Q# standalone</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td><strong><a href="./samples/azure-quantum/three-qubit-repetition-code/README.md">Three Qubit Repetition Code</a></strong></td>
+      <td><a href="./samples/azure-quantum/three-qubit-repetition-code/ThreeQubitRepetitionCode.ipynb">Q# notebook</a></td>
+      <td>Q# standalone</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td><strong><a href="./samples/azure-quantum/iterative-phase-estimation/README.md">Iterative Phase Estimation</a></strong></td>
+      <td><a href="./samples/azure-quantum/iterative-phase-estimation/iterative-phase-estimation.ipynb">Q# notebook</a></td>
+      <td>Q# standalone</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td><strong><a href="./samples/azure-quantum/sessions/README.md">Introduction to Sessions</a></strong></td>
+      <td></td>
+      <td><a href="./samples/azure-quantum/sessions/introduction-to-sessions.ipynb">Qiskit + Python</a></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td><strong><a href="./samples/azure-quantum/utilities/README.md">Data management</a></strong></td>
+      <td><a href="./samples/azure-quantum/utilities/storage-data-management.ipynb">Python notebook</a></td>
+      <td></td>
+      <td></td>
       <td></td>
     </tr>
     <tr>
@@ -500,7 +560,7 @@ These are noted in the README.md files for each sample, along with complete inst
     <tr>
       <td></td>
       <td><strong><a href="./samples/numerics/resource-counting/README.md">Resource counting</a></strong></td>
-      <td><a href="./samples/numerics/resource-counting/ResourceEstimation.ipynb">Q# notebook</a></td>
+      <td></td>
       <td></td>
       <td>Q# standalone</td>
       <td></td>
